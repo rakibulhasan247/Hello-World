@@ -31,7 +31,7 @@ h1{
 }
 
 h2{
-    font-weight: 800; 
+    font-weight: 600; 
    font-size: 2.4rem;
   
 }
@@ -94,6 +94,7 @@ nav ul li a:hover{
 nav box-icon{
     display: none;
 }
+
 
 @media only screen and (max-width:768px) {
     nav{
@@ -207,6 +208,7 @@ input[type=submit]{
     margin: 8px 0;
     outline: none;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 input[type=submit]:hover{
@@ -218,3 +220,37 @@ input::placeholder{
     font-size: 1.3rem;
     color: rgb(153, 153, 153);
 }
+
+/* about-section */
+
+
+.about-left, 
+.about-middle, 
+.about-right {
+
+    flex-basis: 30%;
+    padding: 1.6rem;
+    
+}
+
+.about-middle p, 
+.about-right p{
+    color: rgb(56, 56, 56);
+}
+.btn{
+    
+    color: white;
+    background-color: #77C91D;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin: 20px 0;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+
+    box-shadow: 0px 3px 6px rgba(44, 44, 44, 0.158);
+    
+}
+
+
