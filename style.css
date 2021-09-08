@@ -253,4 +253,9 @@ input::placeholder{
     
 }
 
+.btn:hover{
+    background-color: #3B92E1;
+    transition: all .3s ease-in-out;
+}
+
 
