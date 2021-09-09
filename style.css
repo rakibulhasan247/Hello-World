@@ -165,6 +165,10 @@ nav box-icon{
     margin-top: -20px;
     text-transform: uppercase;
 }
+
+.header-text h1:hover {
+    color: #3B92E1;
+}
 .header-text h2 {
     font-size: 3rem;
     margin-bottom: 10px;
@@ -189,7 +193,7 @@ input{
 }
 input[type=text],
 input[type=email]{
-    width: 50%;
+    width: 450px;
     padding: 12px 20px;
     margin: 1.2rem 0;
     display: block;
@@ -199,7 +203,7 @@ input[type=email]{
 }
 
 input[type=submit]{
-    width: 50%;
+    width: 450px;
     color: white;
     background-color: #77C91D;
     border: none;
@@ -259,3 +263,36 @@ input::placeholder{
 }
 
 
+
+
+.about2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.938),rgba(0, 0, 0, 0.6)), url(Images/numbers-bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+.about2-left{
+    flex-basis: 50%;
+}
+
+.about2-right{
+    flex-basis: 30%;
+}
+
+.about2 .card{
+    padding: 3rem 8rem;
+    color: #222;
+    background-color: #ffffff;
+    margin: 1.6rem;
+    text-align: center;
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    fill: green; 
+}
